@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import uuid from 'uuid';
+import PropTypes from 'prop-types'
+
 
 const stateInicial = {
         cita: {
@@ -14,6 +16,7 @@ const stateInicial = {
 
 class NuevaCita extends Component {
     state = { ...stateInicial }
+    
      // Cuando el usuario escribe en los inputs
     handleChange = (e) => {
         // console.log(e.target.name + ': ' + e.target.value)
@@ -143,5 +146,10 @@ class NuevaCita extends Component {
         );
     }
 }
+
+NuevaCita.propTypes = {
+    crearNuevaCita: PropTypes.func.isRequired
+}
+
 
 export default NuevaCita;
