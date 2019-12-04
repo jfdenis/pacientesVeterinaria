@@ -1,12 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<<<<<<< HEAD
-[Imagen Demo](veterinaria.png)
+
+
 =======
 ![Imagen Demo](veterinaria.png)
-
->>>>>>> a9a83273d4e62060173b671dbe574b24f546455f
-
 ## Available Scripts
 
 In the project directory, you can run:
